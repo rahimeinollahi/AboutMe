@@ -1,13 +1,13 @@
 <template>
-    <div class="container-fluid mt-3">
+    <div class="container-fluid sticky-top">
 
-        <div id="nav-home" class=" p-4 text-dark">
+        <div id="nav-home" class=" p-2 text-dark">
             <h3>به صفحه رحیم عین الهی خوش آمدید.</h3>
         </div>
         <hr>
 
-        <div>
-             <ul class="nav nav-pills p-3" id="mainnav-top">
+        <div class="">
+             <ul class="nav nav-pills p-1 " id="mainnav-top">
                     <div v-for="item in mainnavItems" :key="item.id">
                         <li class="nav-item" v-if="item.id!=5">
                             <router-link :class="item.itemClass" :to="item.itemPath">{{item.itemName}}</router-link>

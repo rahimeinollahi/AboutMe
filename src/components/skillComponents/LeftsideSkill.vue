@@ -1,5 +1,5 @@
 <template>
-    <div class="container mt-2">
+    <div class="container mt-2 h-100">
         <div id="top-skill">
             <h4 class="mt-3 p-3">رحیم عین الهی</h4>
                 <span class="d-block m-5">جونیور وب دوولوپر</span>
@@ -21,6 +21,9 @@
 <style lang="scss" scoped>
     @import '../../assets/scss/variable/variableHome.scss';
 
+*{
+    background-color: $cleBgskill;
+}
     #top-skill, #bottom-skill{
         background-color: $cleBgskill;
     }
