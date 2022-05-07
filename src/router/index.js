@@ -18,7 +18,8 @@ const routes = [
   {
     path: '/skills',
     name: 'Skill',
-    component: () => import(/* webpackChunkName: "skill" */ '../views/MySkill.vue')
+    component: () => import(/* webpackChunkName: "skill" */ '../views/MySkill.vue'),
+    meta:{transtion:'ts-skill'}
   },
 ]
 
