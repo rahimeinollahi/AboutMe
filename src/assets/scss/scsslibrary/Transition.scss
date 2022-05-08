@@ -1,0 +1,9 @@
+.home2-enter-active,
+.home2-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.home2-enter-from,
+.home2-leave-to {
+  opacity: 0;
+}
