@@ -21,6 +21,12 @@ const routes = [
     component: () => import(/* webpackChunkName: "skill" */ '../views/MySkill.vue'),
     meta:{transtion:'ts-skill'}
   },
+  {
+    path: '/contactus',
+    name: 'ContacUs',
+    component: () => import(/* webpackChunkName: "contactus" */ '../views/ContactUs.vue'),
+    meta:{transtion:'ts-contactus'}
+  },
 ]
 
 const router = createRouter({
