@@ -8,7 +8,7 @@
             <img src="../../images/01.jpg" alt="image zero" class="img-fluid mt-2">
         </div>
         <div>
-            <button class="btn btn-info  w-25 mt-1  justify-content-center">کیک کن</button>
+            <router-link to="/" class="btn btn-info  w-25 mt-1  justify-content-center">کیک کن</router-link>
         </div>
     </div>
 </template>

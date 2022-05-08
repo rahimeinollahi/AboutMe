@@ -41,71 +41,7 @@ export default {
     }
   }
 }
+// @import '../../assets/scss/variable/variableHome.scss';
 
-.ts-home2-enter-active,
-.ts-home2-leave-active {
-  transition: all 0.5s ease;
-}
 
-.ts-home2-enter-from,
-.ts-home2-leave-to {
-  opacity: 0;
-  background-color: red;
-}
-//fade
-.ts-fade-enter-active,
-.ts-fade-leave-active {
-  transition: all 0.5s ease;
-}
-
-.ts-fade-enter-from,
-.ts-fade-leave-to {
-  opacity: 0;
-  background-color: red;
-}
-//home
-.ts-fade-enter-active,
-.ts-fade-leave-active {
-  transition: all 0.5s ease;
-}
-
-.ts-fade-enter-from,
-.ts-fade-leave-to {
-  opacity: 0;
-  transform: rotate(50deg);
-  background-color: red;
-}
-//aboutme
-.ts-fade-enter-active,
-.ts-fade-leave-active {
-  transition: all 0.5s ease;
-}
-
-.ts-fade-enter-from,
-.ts-fade-leave-to {
-  opacity: 0;
-  transform: scale(2);
-}
-//contactus
-.ts-contactus-enter-active,
-.ts-fade-leave-active {
-  transition: all 0.5s ease;
-}
-
-.ts-contactus-enter-from,
-.ts-contactus-leave-to {
-  opacity: 0;
-  transform: translateY(50deg)
-}
-//detailimage
-.ts-detailimage-enter-active,
-.ts-detailimage-active {
-  transition: all 0.5s ease;
-}
-
-.ts-detailimage-enter-from,
-.ts-detailimage-leave-to {
-  opacity: 0;
-  transform: translateX(50deg);
-}
 </style>
