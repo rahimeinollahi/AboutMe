@@ -4,15 +4,18 @@
             <div class="col-sm-4">
                 <social-network />
             </div>
-            <div class="col-sm-8">left</div>
+            <div class="col-sm-8">
+                <bodyof-contatus />
+            </div>
         </div>
     </div>
 </template>
 
 <script>
+import BodyofContatus from '../components/ContactUsComponents/BodyofContatus.vue'
 import SocialNetwork from '../components/ContactUsComponents/SocialNetwork.vue'
     export default {
-  components: { SocialNetwork },
+  components: { SocialNetwork, BodyofContatus },
         
     }
 </script>
