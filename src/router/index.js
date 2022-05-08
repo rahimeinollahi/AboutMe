@@ -27,6 +27,18 @@ const routes = [
     component: () => import(/* webpackChunkName: "contactus" */ '../views/ContactUs.vue'),
     meta:{transtion:'ts-contactus'}
   },
+  {
+    path: '/detailimage',
+    name: 'DetailImage',
+    component: () => import(/* webpackChunkName: "detailimage" */ '../views/DetailImage.vue'),
+    meta:{transtion:'ts-detailimage'}
+  },
+  {
+    path: '/home2',
+    name: 'Home2',
+    component: () => import(/* webpackChunkName: "home2" */ '../views/Home2.vue'),
+    meta:{transtion:'ts-home2'}
+  },
 ]
 
 const router = createRouter({

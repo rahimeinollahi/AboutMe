@@ -16,11 +16,11 @@
             return{
                 pagItems:[
                     {id:1, itemName:'Previous',itemPath:'/'},
-                    {id:2, itemName:'1',itemPath:'/'},
+                    {id:2, itemName:'1',itemPath:'/home2'},
                     {id:3, itemName:'2',itemPath:'/'},
-                    {id:4, itemName:'3',itemPath:'/'},
+                    {id:4, itemName:'3',itemPath:'/home2'},
                     {id:5, itemName:'4',itemPath:'/'},
-                    {id:6, itemName:'Next',itemPath:'/'},
+                    {id:6, itemName:'Next',itemPath:'/home2'},
                 ]
             }
         }

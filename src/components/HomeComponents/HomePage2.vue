@@ -29,15 +29,15 @@ import Pagination from './Pagination.vue'
         data(){
             return{
                 imageItems:[
-                    {id:1, itemName:'عکس 1',itemExp:' توضیحات مربوطه', itemPath:'/../../../images/01.jpg',itemClass:'',routePath:'/detailimage'},
-                    {id:2, itemName:'عکس 2',itemExp:' توضیحات مربوطه', itemPath:'/../../../images/02.jpg',itemClass:'',routePath:'/detailimage'},
-                    {id:3, itemName:'عکس 3',itemExp:' توضیحات مربوطه', itemPath:'/../../../images/03.jpg',itemClass:'',routePath:'/detailimage'},
-                    {id:4, itemName:'عکس 4',itemExp:' توضیحات مربوطه', itemPath:'/../../../images/04.jpg',itemClass:'',routePath:'/detailimage'},
+                    {id:1, itemName:'عکس 1',itemExp:' توضیحات مربوطه', itemPath:'/../../../images/09.jpg',itemClass:'',routePath:'/detailimage'},
+                    {id:2, itemName:'عکس 2',itemExp:' توضیحات مربوطه', itemPath:'/../../../images/08.jpg',itemClass:'',routePath:'/detailimage'},
+                    {id:3, itemName:'عکس 3',itemExp:' توضیحات مربوطه', itemPath:'/../../../images/07.jpg',itemClass:'',routePath:'/detailimage'},
+                    {id:4, itemName:'عکس 4',itemExp:' توضیحات مربوطه', itemPath:'/../../../images/06.jpg',itemClass:'',routePath:'/detailimage'},
                     {id:5, itemName:'عکس 5',itemExp:' توضیحات مربوطه', itemPath:'/../../../images/05.jpg',itemClass:'',routePath:'/detailimage'},
-                    {id:6, itemName:'عکس 6',itemExp:' توضیحات مربوطه', itemPath:'/../../../images/06.jpg',itemClass:'',routePath:'/detailimage'},
-                    {id:7, itemName:'عکس 7',itemExp:' توضیحات مربوطه', itemPath:'/../../../images/07.jpg',itemClass:'',routePath:'/detailimage'},
-                    {id:8, itemName:'عکس 8',itemExp:' توضیحات مربوطه', itemPath:'/../../../images/08.jpg',itemClass:'',routePath:'/detailimage'},
-                    {id:9, itemName:'عکس 9',itemExp:' توضیحات مربوطه', itemPath:'/../../../images/09.jpg',itemClass:'',routePath:'/detailimage'},
+                    {id:6, itemName:'عکس 6',itemExp:' توضیحات مربوطه', itemPath:'/../../../images/04.jpg',itemClass:'',routePath:'/detailimage'},
+                    {id:7, itemName:'عکس 7',itemExp:' توضیحات مربوطه', itemPath:'/../../../images/03.jpg',itemClass:'',routePath:'/detailimage'},
+                    {id:8, itemName:'عکس 8',itemExp:' توضیحات مربوطه', itemPath:'/../../../images/02.jpg',itemClass:'',routePath:'/detailimage'},
+                    {id:9, itemName:'عکس 9',itemExp:' توضیحات مربوطه', itemPath:'/../../../images/01.jpg',itemClass:'',routePath:'/detailimage'},
                 ]
             }
         }
